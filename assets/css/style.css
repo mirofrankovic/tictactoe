@@ -5,15 +5,41 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  /* background-image: url("../images/backg.jpg"); */
   }
 
   main {
     flex: 1 0 auto;
   }
 
+  .header{
+    background-image: url("../images/imagef.jpg");
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.description{
+  padding: 5em;
+  text-align: center;
+  /* position: absolute; */
+  margin-left: 20%;
+  margin-right: 20%;
+  top: 20%;
+  margin-bottom: 15%;
+  height: 100em;
+}
+
   .about{
     padding: 1em;
+    height: 100em;
 }
+
+/* #about-image{
+  background-image: url("../images/charts.PNG");
+
+} */
       
 
   .footer {
