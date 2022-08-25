@@ -219,3 +219,19 @@ input[type="text"]{
     
     
   }    
+
+  .img-with-text {
+    text-align: justify;
+    width:30vw;
+    
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+.purple{
+  width: 200px;
+  height: 121px;
+}
