@@ -5,7 +5,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* background-image: url("../images/backg.jpg"); */
+  background-image: url("../images/backg.jpg");
   }
 
   main {
