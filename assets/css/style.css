@@ -5,7 +5,10 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url("../images/backg.jpg");
+  /* background-image: url("../images/backg.jpg"); */
+  }
+  * {
+    box-sizing: border-box;
   }
 
   main {
@@ -235,3 +238,20 @@ input[type="text"]{
   width: 200px;
   height: 121px;
 }
+
+.components{
+  background-color: aqua;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
