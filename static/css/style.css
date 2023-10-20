@@ -44,6 +44,7 @@ body {
 
 } */
 
+
 button{
   border:none;
   outline: none;
@@ -275,3 +276,16 @@ input[type="text"]{
   font-size: 18px;
 
 }
+
+
+.page{
+  position:relative;
+  width:100%;
+  height: auto;
+  margin:auto;
+  }
+  
+  #header-page{
+  background-color:red;
+  }
+  
