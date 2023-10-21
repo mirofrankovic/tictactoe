@@ -285,7 +285,14 @@ input[type="text"]{
   margin:auto;
   }
   
-  #header-page{
-  background-color:red;
+  #header-one{
+  background-color:rgba(255, 136, 0, 0.452);
+  }
+
+  #header-two{
+    background-color: rgba(255, 174, 0, 0.315);
   }
   
+  #header-three{
+    background-color: rgba(255, 0, 191, 0.267);
+  }
